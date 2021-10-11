@@ -1,0 +1,36 @@
+                            /* background - padding - margin - border - outline */
+.one {
+    
+    background-image: url( ../images/mr.roboat.png) ;
+}
+.two {
+    
+    background-image: url(../images/art2.png);
+}
+                            /* display *
+    /* 
+    block
+    inline
+    inline-block
+    */
+
+                                    /* display none - visibality */
+    
+.one,
+.two {
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: contain;
+    background-color: rgb(79, 231, 142)  ;
+    padding: 10px; 
+    border: solid 10px red;
+    outline: 10px black solid;
+    margin :20px;
+}
+                                        /* nesting */
+
+                               
+
+
+
